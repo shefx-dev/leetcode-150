@@ -35,6 +35,7 @@ class Solution {
         Arrays.sort(nums1);
     }
 
+    
     // Better Approach
     public void better(int[] nums1, int m, int[] nums2, int n) {
         int[] temp = new int[m + n];
