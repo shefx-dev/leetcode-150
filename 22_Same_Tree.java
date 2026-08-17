@@ -6,6 +6,7 @@ boolean isSameTree(TreeNode p, TreeNode q) {
     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 }
 
+
 boolean isSameTree(TreeNode p, TreeNode q) {
     Queue<TreeNode> queue = new LinkedList<>();
     queue.add(p);
