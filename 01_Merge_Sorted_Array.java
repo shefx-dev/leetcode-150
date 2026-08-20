@@ -1,7 +1,6 @@
 // Problem: Merge Sorted Array
 // LeetCode: https://leetcode.com/problems/merge-sorted-array/
 
-
 // Brute Force Approach:
 // - Copy nums2 into nums1
 // - Sort the entire nums1 array
